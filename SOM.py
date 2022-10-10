@@ -1,7 +1,7 @@
 #SOM
 
 from sklearn_som.som import SOM
-import numpy as np
+import numpy as np 
 import tensorflow as tf 
 import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score
