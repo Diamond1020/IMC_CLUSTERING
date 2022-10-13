@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score
 import cv2
 import os, glob, shutil
-
+ 
 input_dir = 'pets'
 glob_dir = input_dir + '/*.jpg'
 
