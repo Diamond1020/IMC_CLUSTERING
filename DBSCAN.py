@@ -22,7 +22,7 @@ if __name__ == '__main__':
     model = tf.keras.applications.MobileNetV2(include_top=False, weights='imagenet', input_shape=(100, 100, 3))
     predictions = model.predict(images.reshape(-1, 100, 100, 3))
     pred_images = predictions.reshape(images.shape[0], -1)
-
+ 
     # neighbors = NearestNeighbors(10)
     # neighbors_fit = neighbors.fit(pred_images)
     # distances, indices = neighbors_fit.kneighbors(pred_images)
